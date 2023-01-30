@@ -929,7 +929,9 @@ input {
 
 .owl-next{
   margin-right: 30px;
+
 }
+
 
 .owl-carousel .active{
   opacity: 0.13;
@@ -983,7 +985,22 @@ background-position: -24px -53px;
   }
 }
 
+
+
 @media only screen and (max-width: 765px) {
+
+  .owl-next {
+    position: absolute;
+    top: 38%;
+    left: 80%;
+}
+  .owl-prev {
+    position: absolute;
+    top: 38%;
+    left: 13%;
+  }
+}
+@media only screen and (max-width: 550px) {
 
   .owl-next {
     margin-right: 0px;
@@ -993,10 +1010,20 @@ background-position: -24px -53px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
   .img-c6{
    width: 280px !important;
   }
+}
+
+@media only screen and (max-width: 400px) {
+  .owl-next {
+    left: 85%;
+}
+  .owl-prev {
+    left: 7%;
+}
+
 }
 
 .header.g {

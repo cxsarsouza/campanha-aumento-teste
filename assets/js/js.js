@@ -4,6 +4,7 @@ $('document').ready(function() {
     loop:true,
     center: true,
     autoplay:false,
+    autoplayTimeout:100000, 
     autoplayHoverPause: false,
     animateOut: 'zoomOut',
     animateIn: 'fadeInRight',

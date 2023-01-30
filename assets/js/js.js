@@ -3,7 +3,7 @@ $('document').ready(function() {
     $('#difs').owlCarousel({
     loop:true,
     center: true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3800, 
     autoplayHoverPause: true,
     animateOut: 'zoomOut',
